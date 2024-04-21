@@ -4,7 +4,7 @@
 extern "C" {
 #endif
 
-#define BLE_NAME 'L', 'i'
+#define BLE_NAME 'M', 'o'
 #define BLE_NAME_SIZE 2
 
 #define LIGHT_RED 1
