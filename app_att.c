@@ -33,7 +33,7 @@ static const u8 cai_ctrl_character[] = {
 	CAI_CTRL,
 };
 static const u8 cai_ctrl[16] = { CAI_CTRL };
-u8 ctrl[2] = { 0x00, 0x00 };
+u8 ctrl[2] = { 0x01, 0x00 };
 static int cai_ctrl_write_callback(void *p) 
 {
     rf_packet_att_data_t *pw = (rf_packet_att_data_t *)p;
